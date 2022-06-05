@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <h1>Hello, world!</h1> --comment bbby priyanka>
+    <-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/snapzedstyle.css">
+  <link rel="stylesheet" href="./css/snapzedmedia.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>snap-zed-live</title>
+</head>
+
+<body>
+  <div class="dashboard-area">
+    <!--  -->
+    <form action="">
+      <!-- nav-bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light dashboard-box">
+        <div class="container">
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="header-whole-menu">
+                    <div class="left-part part">
+                        <div class="dash-box">
+                            <div class="dash-icon"><img src="./images/well-img.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <h2>Course</h2>
+                            <h3>Dashboard > Course</h3>
+                        </div>
+                    </div>
+                    <div class="right-part part">
+                        <div class="form-box">
+                            <select class="form-select scontrol" aria-label="Default select example">
+                                <option selected>Abhishek Purane</option>
+                                <option value="1">Abhishek Purane</option>
+                                <option value="2">Abhishek Purane</option>
+                                <option value="3">Abhishek Purane</option>
+                            </select>
+                            <div class="user-icon">
+                                <span><img src="./images/user.svg" alt="" class="img-fluid"></span>
+                            </div>
+                        </div>
+                        <div class="form-box">
+                            <div class="home-icon">
+                                <a href=""><span><i class="fa-solid fa-house-chimney"></i></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+      <!--side-bar left-side  -->
+      <div class="sidebar">
+        <div class="offcanvas offcanvas-start sidebar-menu" data-bs-scroll="true" data-bs-backdrop="false"
+            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <button class="btn sidebar-btn" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><span class="ms-2"><i class="fa-solid fa-right-long"></i></span>
+        </button>
+            <div class="offcanvas-header">
+                <div class="dashboard-logo">
+                    <img src="./images/dashboard-logo.svg" alt="" class="img-fluid">
+                </div>
+                <button type="button" class="btn-close text-reset close-btn" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body scrollbar-custom">
+                <ul class="dashboard-menu ">
+                    <li><a href="./Dashboard.html" class="acitve">
+                            <span> <img src="./images/noun-dashboard.svg" alt="" class="img-fluid"></span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li><a href="./mycourse.html">
+                            <span> <img src="./images/my-course.svg" alt="" class="img-fluid"></span>
+                            My Course
+                        </a>
+                    </li>
+                    <li><a href="./registration.html">
+                            <span> <img src="./images/registeration.svg" alt="" class="img-fluid"></span>
+                            Registration
+                        </a>
+                    </li>
+                    <li><a href="./myprofile.html">
+                            <span> <img src="./images/myprofile.svg" alt="" class="img-fluid"></span>
+                            My Profile
+                        </a>
+                    </li>
+                    <li><a href="./myaffilates.html">
+                            <span> <img src="./images/myaffilates.svg" alt="" class="img-fluid"></span>
+                            My Affiliates
+                        </a>
+                    </li>
+                    <li><a href="./rewards.html">
+                            <span> <img src="./images/rewards.svg" alt="" class="img-fluid"></span>
+                            Rewards
+                        </a>
+                    </li>
+                    <li><a href="./transaction.html">
+                            <span> <img src="./images/transaction.svg" alt="" class="img-fluid"></span>
+                            Transactions
+                        </a>
+                    </li>
+                    <li><a href="./reacharge-bills.html">
+                            <span> <img src="./images/recharge.svg" alt="" class="img-fluid"></span>
+                            Recharge & Bills
+                        </a>
+                    </li>
+                    <li><a href="./rewardpoints.html">
+                            <span> <img src="./images/rewards.svg" alt="" class="img-fluid"></span>
+                            Reward Points
+                        </a>
+                    </li>
+                    <li><a href="./software-center.html">
+                            <span> <img src="./images/software-center.svg" alt="" class="img-fluid"></span>
+                            Software Center
+                        </a>
+                    </li>
+                    <li><a href="./changepassword.html">
+                            <span> <img src="./images/change-password.svg" alt="" class="img-fluid"></span>
+                            Change Password
+                        </a>
+                    </li>
+                    <li><a href="./logout.html">
+                            <span> <img src="./images/logout.svg" alt="" class="img-fluid"></span>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      <!-- content-bar right side -->
+      <div class="content-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!--   tab-course  by priyanka code for tap    Type your code here-->
+              <div class="fx-tab-box my-course border-none">
+                <ul class="nav nav-pills fax-tabs mb-3 bb-0" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link course-tab-hdg active" id="pills-home-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                      aria-selected="true">
+                      For Beginners
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link course-tab-hdg" id="pills-profile-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                      aria-selected="false">
+                      For Professional
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link course-tab-hdg" id="pills-contact-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">
+                      For Smarts
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link course-tab-hdg" id="pills-contact-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">
+                      For Advances
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link course-tab-hdg" id="pills-contact-tab" data-bs-toggle="pill"
+                      data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                      aria-selected="false">
+                      For Experts
+                    </button>
+                  </li>
+                </ul>
+
+
+                <div class="tab-content fx-content" id="pills-tabContent">
+                  <div class="tab-pane my-course fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+
+                    <!--   code for tab-section start -->
+
+
+                    <div class="overview-whole-box">
+                      <div class="row justify-content-between">
+                        <div class="col-lg-8 col-md-12 col-12">
+                          <div class="overviewdes-whole-box">
+                            <div class="overview-des-box">
+
+                              <iframe class="responsive-iframe"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                            <div class="overview-des-box">
+                              <h2 class="topic-hdg">What is forex trading?</h2>
+                              <p class="course-para">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industy. Lorem Ipsum has been
+                                the industry’s standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting,
+                                remaining essentially unchanged.
+                              </p>
+                              <p class="course-para">#Chapter 1 | 20 min</p>
+                            </div>
+                            <div class="display-flex-div">
+                              <div class="span-block-label ml-4">
+                                <span class="img-group">
+                                  <img src="images/thumb-img.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">100</li>
+                                    <li class="likes-a">Likes</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+                              <div class="span-block-label">
+                                <span class="img-group">
+                                  <img src="images/img-eye.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">500</li>
+                                    <li class="likes-a">Views</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <div class="key-feature-box my-course">
+                            <div class="span-block-label">
+                              <span>
+                                <h2 class="topic-hdg">List</h2>
+                              </span>
+                              <span class="pposi-left"> <select class="form-select l-control" aria-label="">
+                                  <option selected>Language</option>
+                                  <option value="1">Hindi</option>
+                                  <option value="2">English</option>
+
+                                </select></span>
+                            </div>
+
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 02</h6>
+                                <h5>Why forex trading?</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 03</h6>
+                                <h5>Indian Market vs Forex...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 04</h6>
+                                <h5>Forex market sessions...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 05</h6>
+                                <h5>Introduction of Mt4 & M...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--   code for tab-section end -->
+                  </div>
+                  <div class="tab-pane my-course fade" id="pills-profile" role="tabpanel"
+                    aria-labelledby="pills-profile-tab">
+                    <!--   code for tab-section start -->
+
+                    <div class="overview-whole-box">
+                      <div class="row justify-content-between">
+                        <div class="col-lg-8 col-md-12 col-12">
+                          <div class="overviewdes-whole-box">
+                            <div class="overview-des-box">
+                              <iframe class="responsive-iframe"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                            <div class="overview-des-box">
+                              <h2 class="topic-hdg">What is forex trading?</h2>
+                              <p class="course-para">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industy. Lorem Ipsum has been
+                                the industry’s standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting,
+                                remaining essentially unchanged.
+                              </p>
+                              <p class="course-para">#Chapter 1 | 20 min</p>
+                            </div>
+                            <div class="display-flex-div">
+                              <div class="span-block-label ml-4">
+                                <span class="img-group">
+                                  <img src="images/thumb-img.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">100</li>
+                                    <li class="likes-a">Likes</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+                              <div class="span-block-label">
+                                <span class="img-group">
+                                  <img src="images/img-eye.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">500</li>
+                                    <li class="likes-a">Views</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <div class="key-feature-box my-course">
+                            <div class="span-block-label">
+                              <span>
+                                <h2 class="topic-hdg">List</h2>
+                              </span>
+                              <span class="pposi-left"> <select class="form-select l-control" aria-label="">
+                                  <option selected>Language</option>
+                                  <option value="1">Hindi</option>
+                                  <option value="2">English</option>
+
+                                </select></span>
+                            </div>
+
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 02</h6>
+                                <h5>Why forex trading?</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 03</h6>
+                                <h5>Indian Market vs Forex...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 04</h6>
+                                <h5>Forex market sessions...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 05</h6>
+                                <h5>Introduction of Mt4 & M...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--   code for tab-section end -->
+                  </div>
+                  <div class="tab-pane my-course fade" id="pills-contact" role="tabpanel"
+                    aria-labelledby="pills-contact-tab">
+                    <div class="overview-whole-box">
+                      <div class="row justify-content-between">
+                        <div class="col-lg-8 col-md-12 col-12">
+                          <div class="overviewdes-whole-box">
+                            <div class="overview-des-box">
+                              <iframe class="responsive-iframe"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                            </div>
+                            <div class="overview-des-box">
+                              <h2 class="topic-hdg">What is forex trading?</h2>
+                              <p class="course-para">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industy. Lorem Ipsum has been
+                                the industry’s standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting,
+                                remaining essentially unchanged.
+                              </p>
+                              <p class="course-para">#Chapter 1 | 20 min</p>
+                            </div>
+                            <div class="display-flex-div">
+                              <div class="span-block-label ml-4">
+                                <span class="img-group">
+                                  <img src="images/thumb-img.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">100</li>
+                                    <li class="likes-a">Likes</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+                              <div class="span-block-label">
+                                <span class="img-group">
+                                  <img src="images/img-eye.png">
+                                </span>
+                                <span class="likes">
+                                  <ul>
+                                    <li class="likes-n">500</li>
+                                    <li class="likes-a">Views</li>
+                                  </ul>
+                                </span>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <div class="key-feature-box my-course">
+                            <div class="span-block-label">
+                              <span>
+                                <h2 class="topic-hdg">List</h2>
+                              </span>
+                              <span class="pposi-left"> <select class="form-select l-control" aria-label="">
+                                  <option selected>Language</option>
+                                  <option value="1">Hindi</option>
+                                  <option value="2">English</option>
+
+                                </select></span>
+                            </div>
+
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 02</h6>
+                                <h5>Why forex trading?</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 03</h6>
+                                <h5>Indian Market vs Forex...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 04</h6>
+                                <h5>Forex market sessions...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="feature-box my-course">
+                              <div class="feature-image">
+                                <iframe class="responsive-iframe"
+                                  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                              </div>
+                              <div class="course-text">
+                                <h6>Chapter 05</h6>
+                                <h5>Introduction of Mt4 & M...</h5>
+                                <p>20 min</p>
+                                <hr>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!--  -->
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b19c60c8de.js" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
