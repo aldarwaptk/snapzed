@@ -626,7 +626,7 @@
     }
 
     .dashboard-affiliate-box {
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 0px 10px;
     }
     .feature-box.my-course {
        display: block;
@@ -653,6 +653,10 @@
         font-size: 15px;
         line-height: 25px;
       }
+      .dashboard-area .content-bar {
+        padding-left: 16px;
+      }
+  
  
 
 
