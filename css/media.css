@@ -133,7 +133,9 @@
     .price-box .price span {
         font-size: 16px;
     }
-    
+    .fx-box h4 {
+        font-size: 14px;
+    }
 
 }
 
@@ -184,6 +186,9 @@
     }
     .fx-tab-box.my-course .fax-tabs .nav-item {
         width: 18%;
+    }
+    .fx-box h4 {
+        font-size: 13px;
     }
 
 }
@@ -282,6 +287,13 @@
     }
     .mobile-btn{
         padding: 6px 6px;
+    }
+    .fx-price-box h2 {
+        font-size: 26px;
+    }
+    .fx-box h4 {
+        font-size: 13px;
+        white-space: nowrap;
     }
 }
 
@@ -451,6 +463,26 @@
     .recharge-bills-wholebox {
         padding-top: 0px;
     }
+    .fx-head h2 {
+        font-size: 36px;
+        margin-bottom: 45px;
+    }
+    .fx-price-box {
+        margin-top: 60px;
+    }
+ 
+    .fx-price-box h2 {
+        font-size: 36px;
+        line-height: 1.3;
+        
+    }
+    .fx-price-box {
+        margin: 0px 6px 0px;
+    }
+    .fx-head {
+        margin-top: 50px;
+        margin-bottom: 55px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -541,6 +573,17 @@
         width: 33.33% !important;
         display: block !important;
         flex-wrap: wrap !important;
+    }
+    .fx-box h4 {
+        line-height: 1.3;
+    }
+    .footer-part .social-icons {
+        margin-top: 25px;
+        margin-bottom: 40px !important;
+    }
+    .footer-line a{
+        display: block;
+    margin: 15px 0px;
     }
 }
 
